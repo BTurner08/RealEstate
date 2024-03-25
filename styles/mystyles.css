@@ -7,9 +7,34 @@ body{
     font-family: Arial;
 }
 a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
+.main-margin{
+    margin: 30px;
+}
 /*utilities*/
-
+.flex-container-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;/*horizontal*/
+    align-items: center;/*vertical*/
+    height: 100px;
+    color: white;
+}
+.menu{
+    color: white;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
 /*header*/
+.site-header{
+    background-image: url("../img/header.jpg");
+    background-position: top;
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    background-attachment: fixed;
+}
