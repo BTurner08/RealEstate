@@ -171,8 +171,37 @@ fieldset{
 .footer-gray{
     background-color: #dedede;
     margin-top: 20px;
-    text-decoration: none black;
     height: 70px;
+}
+.text-center{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+}
+.footer-flex{
+    display: flex;
+}
+.text-center p{
+    margin: 200px;
+}
+.social-icons{
+    text-decoration: black;
+}
+.social-icons a{
+    display: inline-block;
+    border-radius: 50%;
+}
+.small-img{
+    width: 42px;
+    height: auto;
+    align-items: center;
+}
+.smaller-img{
+    width: 33px;
+    height: auto;
+    margin-bottom: 3%;
+    
 }
 /*Mobile*/
 @media(max-width:768px){
