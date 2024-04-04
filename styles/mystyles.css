@@ -203,6 +203,132 @@ fieldset{
     margin-bottom: 3%;
     
 }
+/*About*/
+.about-header{
+    background-image: url(../img/house-banner.jfif);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+.body-color{
+    background-color: #ececd3;
+}
+.h2-center-color{
+    color: rgb(117, 116, 116);
+    padding-bottom: 100px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.about-container2{
+    display: flex;
+    justify-content: space-between;
+}
+.about-img{
+    height: 500px;
+    width: 500px;
+}
+.about-img-line{
+    height: 100px;
+    width: 1000px;
+    margin-top: 10rem;
+}
+.p-color{
+    color: rgb(255, 255, 255);
+}
+.about-flex{
+    display: flex;
+    justify-content: space-between;
+}
+.about-container-grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    column-gap: 2rem;
+    width: 60%;
+    margin: 0 auto;
+}
+.about-item {
+    background-color: #b3a68c;
+}
+.about-flex2{
+    background-color: #ffffff;
+    height: 300px;
+    display: flex;
+    align-items: cover;
+}
+.about-flex3{
+    display: flex;
+    align-items: center;
+    padding: 150px;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 10%;
+}
+.p-color2{
+    color: #b3a68c;
+    text-align: center;
+}
+.btn1{
+    width: 480px;
+    height: 30px;
+}
+/*Blog*/
+.Blog-header{
+    background-image: url(../img/web_banner_blog.webp);
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+}
+.blog-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.blog-img{
+    height: 500px;
+    width: 800px;
+}
+.blog-img2{
+    height: 500px;
+    width: 800px;
+}
+.blog-right{
+    margin-left: auto;
+    margin-right: auto;
+}
+.blog-flex2{
+    display: flex;
+    align-items: top;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+    height: 30rem;
+}
+.blog-flex3{
+    display: flex;
+    align-items: top;
+    flex-direction: row;
+    text-align: center;
+    width: 30%;
+    height: 35rem;
+}
+.blog-color{
+    background-color: #c2bcb1;
+}
+.blog-margin{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer-gray2{
+    background-color: #dedede;
+    margin-top: 200px;
+    height: 70px;
+    align-items: bottom;
+}
+.blog-flex2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 /*Mobile*/
 @media(max-width:768px){
     .about-container{
